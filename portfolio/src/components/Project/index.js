@@ -1,75 +1,75 @@
 import React from "react";
 import '../../App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Project = () => {
     return (
-        <section id="works" class="steps">
+        <section class="App-header">
             <h2 class="section-title secondary-border">My Works</h2>
-            
-            <div>
-                <a href="file:///C:/Users/rmurp/Desktop/run-buddy/assets/css/index.html">
-                <img src="../assets/img/screencapture-rynmrphy18-github-io-run-buddy-2021-09-19-16_13_43.png" alt="" />
-                <h3><span>Run Buddy</span></h3>
+            <div className="row">
+                <div className="col-md-4">
+                <a href="https://rynmrphy18.github.io/schedoolie/">
+                <img className="resize" src={require("./img/Schedoolie.png")} alt="" />
                 </a>
 
-                <a href="">
+                <a href="https://github.com/RynMrphy18/schedoolie">
                 <h3><span>Github Repo</span></h3>
                 </a>
-            </div>
+                </div>
 
-            <div>
-                <a href= "file:///C:/Users/rmurp/Desktop/projects/challenge3/friendly-parakeet/Develop/index.html">
-                <img src="../src/assets/img/screencapture-rynmrphy18-github-io-Randy-Passy-Makey-2021-09-19-16_23_48.png" alt=""  />
-                <h3><span>Random Password Generator</span></h3>
+                <div className="col-md-4">
+                <a href= "https://rynmrphy18.github.io/Randy-Passy-Makey/">
+                <img className="resize" src={require("./img/Password.png")} alt=""  />
                 </a>
 
-                <a href="">
+                <a href="https://github.com/RynMrphy18/Randy-Passy-Makey">
                 <h3><span>Github Repo</span></h3>
                 </a>
-            </div>
+                </div>
 
-            <div>
-                <a href= "file:///C:/Users/rmurp/Desktop/projects/taskmaster-pro/index.html">
-                <img src= "./assets/images/screencapture-file-C-Users-rmurp-Desktop-projects-taskmaster-pro-index-html-2021-09-19-16_22_18.png" alt=""  />
-                <h3><span>Taskinator</span></h3>
+                <div className="col-md-4">
+                <a href= "https://rynmrphy18.github.io/taskinator/">
+                <img className="resize" src= {require("./img/Taskinator.png")} alt=""  />
                 </a>
 
-                <a href="">
+                <a href="https://github.com/RynMrphy18/taskinator">
                 <h3><span>Github Repo</span></h3>
                 </a>
+                </div>
+
             </div>
 
-            <div>
-                <a href= "file:///C:/Users/rmurp/Desktop/projects/challenge6/index.html">
-                <img src= "./assets/images/screencapture-rynmrphy18-github-io-Weather-Fortune-Teller-2021-09-19-16_21_30.png" alt=""  />
-                <h3><span>Weather Forecaster</span></h3>
+            <div className="row">
+                <div className="col-md-4">
+                <a href= "https://rynmrphy18.github.io/Weather-Fortune-Teller/">
+                <img className="resize" src= {require("./img/WeatherFortune.png")} alt=""  />
                 </a>
 
-                <a href="">
+                <a href="https://github.com/RynMrphy18/Weather-Fortune-Teller">
                 <h3><span>Github Repo</span></h3>
                 </a>
-            </div>
+                </div>
 
-            <div>
+                <div className="col-md-4">
                 <a href= "https://rynmrphy18.github.io/IMDB-Ripoff-Dont-Tell-Anyone/">
-                <img src="./assets/images/screencapture-rynmrphy18-github-io-IMDB-Ripoff-Dont-Tell-Anyone-2021-09-19-16_46_31.png" alt="" />
-                <h3><span>IDMB</span></h3>
+                <img className="resize" src= {require("./img/IDMB.png")} alt="" />
                 </a>
 
-                <a href="">
+                <a href="https://github.com/RynMrphy18/IMDB-Ripoff-Dont-Tell-Anyone">
                 <h3><span>Github Repo</span></h3>
                 </a>
-            </div>
+                </div>
 
-            <div>
+                <div className="col-md-4">
                 <a href= "https://fomo-exchange.herokuapp.com/">
-                <img src="./assets/images/fomo-screenshot.png" alt="" />
-                <h3><span>FOMO Exchange</span></h3>
+                <img className="resize" src= {require("./img/fomo.png")} alt="" />
+
                 </a>
 
-                <a href="">
+                <a href="https://github.com/RynMrphy18/fomo-mock-exchange">
                 <h3><span>Github Repo</span></h3>
                 </a>
+                </div>
             </div>
         </section>
     )

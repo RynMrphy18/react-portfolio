@@ -1,19 +1,30 @@
 import React from "react";
 import '../../App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Contact = () => {
 
     return (
-        <section>
-            <h2>Contact Me</h2>
-            
-            <div>
-                <p>
-                    Email: rmurph1800@gmail.components
-                        
-                    Github: RynMrphy18
-                </p>
-            </div>
+
+        <section className="App-header">
+            <h1>Contact Me</h1>
+            <form>
+                <div className="row">
+                    <label className>Name:</label>
+                    <input type="text" name="name"/>
+                </div>
+
+                <div className="row">
+                    <label>Email:</label>
+                    <input type="email" name="email"/>
+                </div>
+
+                <div className="row">
+                    <label>Message</label>
+                    <textarea name="message" rows="5"/>
+                </div>
+                <button type="submit">Contact</button>
+            </form>
         </section>
     )
 }

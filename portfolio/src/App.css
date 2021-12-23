@@ -24,6 +24,14 @@
   color: white;
 }
 
+.Nav {
+  background-color: silver;
+  font-size: 40px;
+  color: #453f3e;
+  box-shadow: none;
+  text-decoration: none;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +43,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.hide-submit-message {
+  display: none;
+}
+
+.resize {
+  width: 500px;
+  height: auto;
 }
