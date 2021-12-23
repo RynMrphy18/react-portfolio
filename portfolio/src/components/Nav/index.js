@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 import { Link } from "react-router-dom";
 
-function nav() {
+const Nav = () => {
     return (
         <div>
             <nav>
@@ -20,4 +20,4 @@ function nav() {
     )
 }
 
-export default nav;
+export default Nav;

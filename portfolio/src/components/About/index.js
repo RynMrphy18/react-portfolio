@@ -1,7 +1,7 @@
 import React from "react";
 import '../../App.css';
 
-function About() {
+const About = () => {
     return (
         <section id="about-me" class="intro">
             <h2 class="section-title primary-border">About Me</h2>

@@ -6,16 +6,18 @@ import Project from '../src/components/Project';
 import Contact from '../src/components/Contact';
 import About from '../src/components/About';
 import Footer from "../src/components/Footer";
+// import Wrapper from "../src/components/Wrapper";
 
 function App() {
   return (
     <Router>
     <Nav />
     <Routes>
-    <Route exact path= "/About" element={About}/>
-    <Route exact path="/Project" element={Project}/>
-    <Route exact path ="/Contact" element={Contact}/>
-    <Route exact path="/Footer" element={Footer}/>
+    <Route exact path ="/" element={< About/>}/>
+    <Route exact path= "/About" element={<About />}/>
+    <Route exact path="/Project" element={<Project />}/>
+    <Route exact path ="/Contact" element={<Contact />}/>
+    <Route exact path="/Footer" element={<Footer />}/>
     </Routes>
     </Router>
   );

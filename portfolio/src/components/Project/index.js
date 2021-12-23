@@ -1,7 +1,7 @@
 import React from "react";
 import '../../App.css';
 
-function Project() {
+const Project = () => {
     return (
         <section id="works" class="steps">
             <h2 class="section-title secondary-border">My Works</h2>
