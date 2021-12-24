@@ -8,6 +8,9 @@ const Nav = () => {
         <div>
             <nav className="Nav row">
                 <div className="col-md-2">
+                    <h1 style={{fontSize: '40px'}}>Ryan Murphy</h1>
+                </div>
+                <div className="col-md-2">
                     <Link to="/About" style={{textDecoration: 'none', color: '#453f3e'}}>About Me</Link>
                 </div>
                 <div className="col-md-2">
