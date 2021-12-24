@@ -1,6 +1,7 @@
 import React from "react";
 import '../../App.css';
 
+// renders footer element and each logo with clickable link
 const Footer = () => {
 
     return (

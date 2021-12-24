@@ -1,6 +1,8 @@
 import React from "react";
 import '../../App.css';
 
+// renders about section
+
 const About = () => {
     return (
         <section className="App-header">

@@ -6,10 +6,13 @@ import Project from '../src/components/Project';
 import Contact from '../src/components/Contact';
 import About from '../src/components/About';
 import Footer from "../src/components/Footer";
-// import Wrapper from "../src/components/Wrapper";
 
+// launches app
 function App() {
   return (
+    // router encompasses all routes
+    // items in Routes will condition if theyre path is called
+    // nav and footer lies outside routes so they always render
     <Router>
     <Nav />
     <Routes>

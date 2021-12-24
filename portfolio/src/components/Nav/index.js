@@ -3,6 +3,7 @@ import '../../App.css';
 import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+// render header and nav component
 const Nav = () => {
     return (
         <div>
@@ -11,6 +12,7 @@ const Nav = () => {
                     <h1 style={{fontSize: '40px'}}>Ryan Murphy</h1>
                 </div>
                 <div className="col-md-2">
+                    {/* links gives route that app.js will use */}
                     <Link to="/About" style={{textDecoration: 'none', color: '#453f3e'}}>About Me</Link>
                 </div>
                 <div className="col-md-2">

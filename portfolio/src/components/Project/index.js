@@ -2,6 +2,8 @@ import React from "react";
 import '../../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// render each project in portfolio
+
 const Project = () => {
     return (
         <section class="App-header">

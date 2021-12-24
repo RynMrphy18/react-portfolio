@@ -2,6 +2,8 @@ import React from "react";
 import '../../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// render contact form in contact section
+
 const Contact = () => {
 
     return (
