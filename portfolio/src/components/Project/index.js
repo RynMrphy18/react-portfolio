@@ -53,11 +53,11 @@ const Project = () => {
                 </div>
 
                 <div className="col-md-4">
-                <a href= "https://rynmrphy18.github.io/IMDB-Ripoff-Dont-Tell-Anyone/">
-                <img className="resize" src= {require("./img/IDMB.png")} alt="" />
+                <a href= "https://powerful-basin-63649.herokuapp.com/">
+                <img className="resize" src= {require("./img/vacci-date.png")} alt="" />
                 </a>
 
-                <a href="https://github.com/RynMrphy18/IMDB-Ripoff-Dont-Tell-Anyone">
+                <a href="https://github.com/thereeling/vacci-date">
                 <h3><span>Github Repo</span></h3>
                 </a>
                 </div>
